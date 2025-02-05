@@ -4,6 +4,7 @@
 <head>
 <title>CV Sarah</title>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
 *{
         margin: 0;
@@ -21,33 +22,19 @@ h1{
 }
 .left{
         box-sizing: border-box;
-        width:35%; 
+        width:25%; 
         background-color:#efefef; 
         padding: 20px;}
-.contact-info, li{
+li{
         line-height: 1.8;
         list-style-type:circle;
 }
 .right{
-        width:65%;
+        width:75%;
         background-color:white;
         box-sizing: border-box; padding: 20px;
 }
-.logo img{
-        height:24px;
-        width:24px;
-        margin-right: 10px;
-}
-.logo{
-        display: flex;
-        align-items: center;
-}
-.logo_étudiant{
-        display: block;
-        margin: 0 auto;
-        max-width: 100%;
-        height: auto;
-}
+
 #sss_titre{
         font-size:15px;
         opacity:0.7;
@@ -59,26 +46,14 @@ h1{
 
 <div class="all">
         <div class="left">
-                <img class="logo_étudiant" src="CV_image.jpg" alt="Image">
-                <br>
-                <br>
                 <br>
                 <h3>CONTACT</h3><hr>
                 <br>
-                <div class="contact-info">
-                        <div class="logo">
-                                <img src="logo-lieu.png" alt="E-mail: ">
-                                <p>Villiers-Le-Bel, 95400, France</p>
-                        </div>
-                        <div class="logo">
-                                <img src="logo-gmail.png" alt="E-mail: ">
-                                <p>marecarsarah@gmail.com</p>
-                        </div>
-                        <div class="logo">
-                                <img src="logo-tel.png" alt="N° téléphone: ">
-                                <p>06 13 94 60 76</p>
-                        </div>
-                </div>
+                <ul>
+                    <li>Adresse: Villiers-Le-Bel, 95400, France</li>
+                    <li>E-mail: marecarsarah@gmail.com</li>
+                    <li>N° téléphone: 06 13 94 60 76</li>
+                </ul>
                 <br>
                 <br>
                 <h3>CENTRES D’INTÉRÊT </h3><hr>
@@ -106,7 +81,7 @@ h1{
         <div class="right">
                 <h1>Sarah MARECAR</h1>
                 <br>
-                <p><span style="color:brown; font-weight:bold">Recherche d'une Alternance en tant que développeur web</span> pour une durée d'un an, de septembre 2025 à septembre 2026<p>
+                <p>Recherche d'une Alternance en tant que développeur web pour une durée d'un an à partir de septembre 2025<p>
                 <p id="sss_titre">~ 2 semaines de cours et 2 semaines d'Alternance ~</p>
                         <br>
                         <br>
